@@ -1,4 +1,11 @@
+build/
+dist/
 .DS_Store
 .DS_Store?
 .Trashes
 *.class
+
+# Package Files #
+*.jar
+*.war
+*.ear

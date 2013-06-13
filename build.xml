@@ -34,10 +34,8 @@
     <!-- Put everything in ${build}/lib into the lib/ dir of build -->
     <copy todir="${build}/lib">
       <fileset dir="lib" includes="*.jar" />
-    </copy>
-     
-    <jar jarfile="${dist}/lib/HelloWorld.jar" basedir="${build}">
-      <zipfileset includes="**/*.class" src="lib/jsoup-1.6.1.jar"/>
+    </copy> 
+    <jar jarfile="${dist}/lib/MyJob.jar" basedir="${build}">
     </jar> 
   </target>
 
