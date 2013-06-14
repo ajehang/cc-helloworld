@@ -4,7 +4,7 @@ dist/
 .DS_Store?
 .Trashes
 *.class
-
+*.java~
 # Package Files #
 *.jar
 *.war
